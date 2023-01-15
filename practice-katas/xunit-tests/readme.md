@@ -11,8 +11,13 @@ mkdir learn
 cd learn
 dotnet new xunit -o Katas.Tests
 dotnet new classlib -o Katas.Lib
+cd Katas.Lib
+dotnet add package FluentAssertions
 code .
 ```
+
+
+
 
 Copy and paste content from desired unit test file into Katas.Tests/UnitTest1.cs or however you prefer to do it.
 
