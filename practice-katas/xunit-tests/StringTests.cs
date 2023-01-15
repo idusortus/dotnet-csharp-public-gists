@@ -1,4 +1,5 @@
 using FluentAssertions;
+global using Xunit;
 using Katas.Lib;
 
 namespace Katas.Tests;
