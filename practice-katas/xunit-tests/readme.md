@@ -11,8 +11,11 @@ mkdir learn
 cd learn
 dotnet new xunit -o Katas.Tests
 dotnet new classlib -o Katas.Lib
+// add Lib project reference to Tests project
+dotnet add .\Katas.Tests\Katas.Tests.csproj reference .\Katas.Lib\Katas.Lib.csproj
 cd Katas.Lib
 dotnet add package FluentAssertions
+dotnet add package xunit --version 2.4.2
 code .
 ```
 
