@@ -19,6 +19,14 @@ dotnet add package xunit --version 2.4.2
 code .
 ```
 
+- Click flask icon for .Net Core Test Explorer Extension
+- If no tests are available, click the blue button and update .vscode/settings.json:
+
+```json
+{
+    "dotnet-test-explorer.testProjectPath": "Katas.Tests"
+}
+```
 
 
 
